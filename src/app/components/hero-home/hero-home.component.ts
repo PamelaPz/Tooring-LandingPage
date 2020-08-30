@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
+import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'hero-home',
@@ -7,6 +8,6 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeroHomeComponent {
 
-  constructor() { }
+  ChevronDown = faChevronDown;
 
 }
