@@ -1,15 +1,13 @@
 import { Component, OnInit } from '@angular/core';
+import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'somos-home',
   templateUrl: './somos-home.component.html',
   styleUrls: ['./somos-home.component.sass']
 })
-export class SomosHomeComponent implements OnInit {
+export class SomosHomeComponent {
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
+  ChevronDown = faChevronDown;
 
 }
