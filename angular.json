@@ -29,7 +29,8 @@
             ],
             "styles": [
               "src/styles.sass",
-              "src/assets/fonts/fonts-fontname.sass"
+              "src/assets/fonts/fonts-fontname.sass",
+              "node_modules/ngx-owl-carousel-o/lib/styles/prebuilt-themes/owl.carousel.min.css"
             ],
             "scripts": []
           },
