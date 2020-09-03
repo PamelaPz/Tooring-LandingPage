@@ -17,7 +17,7 @@ export class AppComponent implements OnInit {
         //Creamos el string del enlace ancla
         var codigo = "#" + $(this).data("ancla");
         //Funcionalidad de scroll lento para el enlace ancla en 3 segundos
-        $("html,body").animate({scrollTop: $(codigo).offset().top-60}, 2000);
+        $("html,body").animate({scrollTop: $(codigo).offset().top-40}, 2000);
       });
     });
   }
