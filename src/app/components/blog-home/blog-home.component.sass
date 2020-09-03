@@ -1,0 +1,84 @@
+.content_flex
+    display: flex
+    justify-content: center
+    align-items: center
+    height: 90vh
+.container
+    height: 80vh
+    width: 100%
+    .title
+        display: flex
+        flex-direction: row
+        height: 4.8rem
+        padding-left: 6rem
+        color: #FF5964
+        font-family: "Lulo-Clean-Bold"
+        h1:nth-child(0n+2)
+            transform: rotate(18deg) translateY(5px)
+        h1:nth-child(0n+3)
+            transform: translateY(16px)
+        h1:nth-child(0n+4)
+            transform: translateY(32px)
+        h1:nth-child(0n+5)
+            transform: rotate(-12deg) translateY(32px)
+    .content_btn
+        margin: auto auto .5rem auto
+        a
+            font-family: "Lulo-Clean"
+            font-size: 14px
+            color: #FF5964
+            border: 1px solid #FF5964
+            padding: 0.2rem 1rem
+            text-decoration: none
+        a:hover
+            color: white
+            background-color: #FF5964
+
+.content_img
+    height: 16.2rem
+    width: 22rem
+    margin: 2rem auto
+    border: 3px solid #FF5964
+    img
+        position: relative
+        border-bottom: 6px solid white
+        border-left: 6px solid white
+        top: -1rem
+        right: -1rem
+        height: 16rem
+        width: 22rem
+.content_info
+    padding-left: 3rem
+    h3
+        text-align: center
+        color: #052360
+        font-family: "Lulo-Clean-Bold"
+    .content_text
+        padding: 0 5rem
+        p
+            text-align: center
+            color: #FF5964
+            font-size: 14px
+            // text-transform: lowercase
+            font-family: "Montserrat"
+.content_arrow
+    position: relative
+    margin: auto
+    top: -4rem
+    z-index: 2
+.arrowDown
+    -moz-animation: arrowDown 2s infinite
+    -webkit-animation: arrowDown 2s infinite
+    animation: arrowDown 2s infinite
+
+@keyframes arrowDown
+    0%,
+    20%,
+    50%,
+    80%,
+    100%
+        transform: translateY(0)
+    40%
+        transform: translateY(-20px)
+    60%
+        transform: translateY(-15px)
