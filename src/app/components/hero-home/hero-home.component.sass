@@ -1,15 +1,22 @@
+/** RESPONSIVE MEDIA QUERY **/  
+$breakpoint-movil: 576px
+    
 .col-12.my-5.pt-5
     padding: 0
 .cont_btnText
     padding-right: 0
 .text_red
     padding-top: 4rem
+    @media (max-width: $breakpoint-movil)
+        padding-top: 0 !important
     h4
         // font-size: 1.6rem
         font-family: "Lulo-Clean"
         line-height: 2
         letter-spacing: 2px
         color: #FF5964
+        @media (max-width: $breakpoint-movil)
+            font-size: 1.1rem
         span 
             font-family: "Lulo-Clean-Bold"
             font-weight: bold
