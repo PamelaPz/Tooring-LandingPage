@@ -2,7 +2,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { CarouselModule } from 'ngx-owl-carousel-o';
 
 import { AppComponent } from './app.component';
@@ -15,6 +14,7 @@ import { DesignHomeComponent } from './components/design-home/design-home.compon
 import { BannerTorringComponent } from './components/banner-torring/banner-torring.component';
 import { BlogHomeComponent } from './components/blog-home/blog-home.component';
 import { BannerIdeaHomeComponent } from './components/banner-idea-home/banner-idea-home.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -28,11 +28,11 @@ import { BannerIdeaHomeComponent } from './components/banner-idea-home/banner-id
     BannerTorringComponent,
     BlogHomeComponent,
     BannerIdeaHomeComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
     NgbModule,
-    FontAwesomeModule,
     CarouselModule
   ],
   providers: [],
