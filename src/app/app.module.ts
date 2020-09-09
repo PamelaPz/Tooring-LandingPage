@@ -4,9 +4,9 @@ import { NgModule } from '@angular/core';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { CarouselModule } from 'ngx-owl-carousel-o';
 
-import { APP_ROUTING } from './app.routes';
-
 import { AppComponent } from './app.component';
+import { AppRoutingModule } from './app-routing.module';
+
 import { HomeComponent } from './components/home/home.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { HeroHomeComponent } from './components/home/hero-home/hero-home.component';
@@ -18,6 +18,10 @@ import { BannerTorringComponent } from './components/home/banner-torring/banner-
 import { BlogHomeComponent } from './components/home/blog-home/blog-home.component';
 import { BannerIdeaHomeComponent } from './components/home/banner-idea-home/banner-idea-home.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { ServiciosComponent } from './components/servicios/servicios.component';
+import { NavbarServicesComponent } from './components/servicios/navbar-services/navbar-services.component';
+import { ServiceHomeComponent } from './components/servicios/service-home/service-home.component';
+import { WebComponent } from './components/servicios/service-home/web/web.component';
 
 @NgModule({
   declarations: [
@@ -33,12 +37,16 @@ import { FooterComponent } from './components/footer/footer.component';
     BannerIdeaHomeComponent,
     FooterComponent,
     HomeComponent,
+    ServiciosComponent,
+    NavbarServicesComponent,
+    ServiceHomeComponent,
+    WebComponent,
   ],
   imports: [
     BrowserModule,
     NgbModule,
     CarouselModule,
-    APP_ROUTING
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
