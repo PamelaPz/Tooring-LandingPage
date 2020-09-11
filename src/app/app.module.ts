@@ -23,6 +23,7 @@ import { NavbarServicesComponent } from './components/servicios/navbar-services/
 import { ServiceHomeComponent } from './components/servicios/service-home/service-home.component';
 import { WebComponent } from './components/servicios/service-home/web/web.component';
 import { ListservicesWebComponent } from './components/servicios/service-home/listservices-web/listservices-web.component';
+import { ProcessWebComponent } from './components/servicios/service-home/process-web/process-web.component';
 
 @NgModule({
   declarations: [
@@ -43,6 +44,7 @@ import { ListservicesWebComponent } from './components/servicios/service-home/li
     ServiceHomeComponent,
     WebComponent,
     ListservicesWebComponent,
+    ProcessWebComponent,
   ],
   imports: [
     BrowserModule,
