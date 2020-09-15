@@ -2,11 +2,53 @@
     color: white
     font-family: "Lulo-Clean"
     h2  
+        font-size: 1.8rem
         font-family: "Lulo-Clean-Bold"
     h3
-        padding-bottom: 1rem
+        font-size: 1.5rem
+        padding-bottom: .5rem
     .content_hr
         width: 30%
         hr
             background-color: #FF5964
             padding: 0.1rem
+.content_text
+    display: flex
+    justify-content: center
+    padding: 2rem 0 0 0
+    p
+        padding: 0 5rem
+        color: white
+        font-family: "Montserrat"
+.content_text2
+    display: flex
+    justify-content: space-around
+    padding: 1rem 0 0 0
+    p
+        color: white
+        font-family: "Montserrat"
+.content_wave
+    position: relative
+    height: 14rem
+    display: flex
+    justify-content: center
+    align-items: center
+    img
+        width: 80rem
+
+.lll
+    position: absolute
+    top: 0px
+    left: 0px
+    height: 6cm
+    width: 100%
+    background: #052360
+    animation: slide 20s infinite
+    animation-timing-function: linear
+    animation-fill-mode: forwards
+
+@keyframes slide
+    from
+        right: 100%
+    to
+        left:36cm
