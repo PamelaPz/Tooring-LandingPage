@@ -24,6 +24,8 @@ import { ServiceHomeComponent } from './components/servicios/service-home/servic
 import { WebComponent } from './components/servicios/service-home/web/web.component';
 import { ListservicesWebComponent } from './components/servicios/service-home/listservices-web/listservices-web.component';
 import { ProcessWebComponent } from './components/servicios/service-home/process-web/process-web.component';
+import { ServiceSoftwareComponent } from './components/servicios/service-software/service-software.component';
+import { SoftwareComponent } from './components/servicios/service-software/software/software.component';
 
 @NgModule({
   declarations: [
@@ -45,6 +47,8 @@ import { ProcessWebComponent } from './components/servicios/service-home/process
     WebComponent,
     ListservicesWebComponent,
     ProcessWebComponent,
+    ServiceSoftwareComponent,
+    SoftwareComponent,
   ],
   imports: [
     BrowserModule,

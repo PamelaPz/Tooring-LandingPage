@@ -1,0 +1,41 @@
+.content_title
+    position: relative
+    width: 60%
+    top: 14rem
+    left: -8rem
+    color: #FF5964
+    font-family: "Lulo-Clean-Bold"
+    transform: rotate(-90deg)
+    display: flex
+    flex-direction: column
+    justify-content: flex-start
+    p
+        font-size: 3.1rem
+        text-align: center
+.content_text
+    color: #052360
+    height: 22rem
+    display: flex
+    position: relative
+    top: -5rem
+    justify-content: flex-end
+    align-items: center
+    font-family: "Montserrat"
+    p
+        font-size: 1.9rem
+.arrowDown
+    -moz-animation: arrowDown 2s infinite
+    -webkit-animation: arrowDown 2s infinite
+    animation: arrowDown 2s infinite
+
+@keyframes arrowDown
+    0%,
+    20%,
+    50%,
+    80%,
+    100%
+        transform: translateY(0)
+    40%
+        transform: translateY(-20px)
+    60%
+        transform: translateY(-15px)
